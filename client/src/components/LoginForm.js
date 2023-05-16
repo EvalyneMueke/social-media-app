@@ -27,7 +27,7 @@ const LoginForm = () => {
 
       if (response.ok) {
         // User login successful, perform any necessary actions
-        navigate('/');
+        navigate('/posts');
         // console.log('Login successful');
         // Redirect the user to another page or perform additional actions
       } else {
